@@ -1,0 +1,102 @@
+/* Estilos base globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    color: white;
+}
+
+/* Container padrão para todas as páginas */
+.page-container {
+    width: 70%;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    animation: slideInUp 0.3s ease-in-out forwards;
+    opacity: 0;
+}
+
+/* Animação padrão */
+@keyframes slideInUp {
+    from {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Media Queries Globais */
+/* Tablets e telas médias */
+@media screen and (max-width: 1024px) {
+    .page-container {
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
+/* Tablets menores e telas médias-pequenas */
+@media screen and (max-width: 768px) {
+    .page-container {
+        width: 90%;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
+
+/* Smartphones */
+@media screen and (max-width: 480px) {
+    .page-container {
+        width: 95%;
+        padding: 10px 5px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+}
+
+/* Smartphones muito pequenos */
+@media screen and (max-width: 320px) {
+    .page-container {
+        width: 100%;
+        padding: 5px;
+    }
+}

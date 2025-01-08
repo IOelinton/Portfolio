@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    min-height: 100vh; /* Altura mínima igual à altura da viewport */
+    margin: 0 auto;
+    gap: 2rem;
+    padding: 2rem;
+    animation: slideInUp 0.3s ease-in-out forwards;
+    opacity: 0;
+    place-items: center; /* Centraliza os itens do grid vertical e horizontalmente */
+    align-content: center; /* Centraliza o conteúdo do grid verticalmente */
+}
+
+/* ... resto do código permanece igual ... */
+
+/* Ajuste nos media queries para manter a centralização */
+@media (max-width: 991px) {
+    .contact-container {
+        grid-template-columns: 1fr;
+        width: 90%;
+        gap: 2rem;
+        min-height: 100vh;
+        place-items: center;
+        align-content: center;
+    }
+    
+    /* ... resto do media query permanece igual ... */
+}
+
+/* Mobile (<576px) */
+@media (max-width: 576px) {
+    .contact-container {
+        width: 95%;
+        padding: 1rem;
+        min-height: 100vh;
+        place-items: center;
+        align-content: center;
+    }
+    
+    /* ... resto do media query permanece igual ... */
+}
