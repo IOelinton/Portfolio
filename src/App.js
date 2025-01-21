@@ -13,48 +13,51 @@ import "./styles/cssReset.css";
 import NavbarLayout from "./Components/NavbarLayout";
 
 function App() {
-  const router = createBrowserRouter([
-    {
-      path: "/",
-      element: (
-        <NavbarLayout>
-          <Home />
-        </NavbarLayout>
-      ),
-    },
-    {
-      path: "/about",
-      element: (
-        <NavbarLayout>
-          <About />
-        </NavbarLayout>
-      ),
-    },
-    {
-      path: "/skills",
-      element: (
-        <NavbarLayout>
-          <Skills />
-        </NavbarLayout>
-      ),
-    },
-    {
-      path: "/projects",
-      element: (
-        <NavbarLayout>
-          <Projects />
-        </NavbarLayout>
-      ),
-    },
-    {
-      path: "/contact",
-      element: (
-        <NavbarLayout>
-          <Contact />{" "}
-        </NavbarLayout>
-      ),
-    },
-  ]);
+  const router = createBrowserRouter(
+    [
+      {
+        path: "/",
+        element: (
+          <NavbarLayout>
+            <Home />
+          </NavbarLayout>
+        ),
+      },
+      {
+        path: "/about",
+        element: (
+          <NavbarLayout>
+            <About />
+          </NavbarLayout>
+        ),
+      },
+      {
+        path: "/skills",
+        element: (
+          <NavbarLayout>
+            <Skills />
+          </NavbarLayout>
+        ),
+      },
+      {
+        path: "/projects",
+        element: (
+          <NavbarLayout>
+            <Projects />
+          </NavbarLayout>
+        ),
+      },
+      {
+        path: "/contact",
+        element: (
+          <NavbarLayout>
+            <Contact />{" "}
+          </NavbarLayout>
+        ),
+      },
+    ],
+    { basename: "/Portfolio" }
+  );
   return (
     <div className="App">
       <div className="container">
