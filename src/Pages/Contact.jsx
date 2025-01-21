@@ -90,7 +90,7 @@ export default function Contact() {
           <div className="social-links">
             <div className="links-wrapper">
               <a
-                href="https://www.linkedin.com/in/seu-linkedin"
+                href="https://www.linkedin.com/in/oelinton"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-link"
@@ -98,7 +98,7 @@ export default function Contact() {
                 LinkedIn
               </a>
               <a
-                href="https://github.com/seu-github"
+                href="https://github.com/Ioelinton"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-link"
@@ -106,7 +106,7 @@ export default function Contact() {
                 GitHub
               </a>
               <a
-                href="https://wa.me/seu-numero"
+                href="https://wa.me/555497029318"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-link"
