@@ -9,6 +9,6 @@ export const projectsData = [
     technologies: ["React", "css", "react testing library"],
     image: "imgs/geradorDeSenhas.png",
     githubLink: "https://github.com/IOelinton/Gerador-de-senhas",
-    liveLink: "...",
+    liveLink: "https://ioelinton.github.io/Gerador-de-senhas/",
   },
 ];
