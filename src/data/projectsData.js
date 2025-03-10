@@ -20,7 +20,19 @@ export const projectsData = [
       "Aplicativo de receitas desenvolvido com React que permite buscar receitas por ingrediente ou categoria. A API utilizada é a TheMealDB, que fornece uma vasta coleção de receitas de comida internacional. O projeto inclui testes unitários para garantir a qualidade do código.",
     technologies: ["React", "css", "html", "React Slick"],
     image: "imgs/app-receita.png",
-    githubLink: "https://github.com/IOelinton/Gerador-de-senhas",
+    githubLink: "https://github.com/IOelinton/app-de-receitas",
     liveLink: "https://ioelinton.github.io/app-de-receitas/#/",
+  },
+  {
+    id: 3,
+    title: "Pokédex",
+    shortDescription:
+      "Aplicativo de Pokédex que permite buscar informações sobre pokémons.",
+    fullDescription:
+      "Aplicativo de Pokédex desenvolvido com React que permite buscar informações sobre pokémons. A API utilizada é a PokéAPI, que fornece uma vasta coleção de informações sobre pokémons. estilização do projeto feito em css atendendo a responsividade e tecnicas modernas de estilização.",
+    technologies: ["React", "css", "html", "fetch", "PokéAPI"],
+    image: "imgs/pokedex.png",
+    githubLink: "https://github.com/IOelinton/pokedex",
+    liveLink: "https://ioelinton.github.io/pokedex/",
   },
 ];

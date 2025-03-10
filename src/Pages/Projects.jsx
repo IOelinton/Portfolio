@@ -45,9 +45,12 @@ export default function Projects() {
   return (
     <div className="projects-container">
       <div className="projects-grid">
-        {projectsData.map((project) => (
-          <ProjectCard key={project.id} project={project} />
-        ))}
+        {projectsData
+          .slice(0)
+          .reverse()
+          .map((project) => (
+            <ProjectCard key={project.id} project={project} />
+          ))}
       </div>
     </div>
   );
